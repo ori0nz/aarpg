@@ -1,0 +1,41 @@
+# Godot 4+ specific ignores
+.godot/B
+/android/
+
+# Godot 4+ specific ignores
+# This folder stores user-specific and computer-specific project data.
+# It should never be versioned.
+.godot/
+
+# Godot 3 specific ignores (good to have for compatibility)
+.import/
+export_presets.cfg
+
+# Mono/C# build artifacts
+.mono/
+bin/
+obj/
+*.csproj.user
+*.sln.user
+
+# Exported game files
+*.pck
+*.zip
+*.tar.gz
+
+# Asset Store / Imported asset metadata
+# You may want to version these if your team uses the Asset Library,
+# but it can also be safely ignored if assets are managed manually.
+# .godot/imported/
+
+# Auto-generated translation files
+*.translation
+
+# OS-specific files
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+
+# IDE specific files
+.vscode/
