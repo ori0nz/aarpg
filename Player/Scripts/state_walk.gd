@@ -4,7 +4,7 @@ class_name StateWalk extends State
 @export var move_speed: float = 100.0
 
 @onready var idle: StateIdle = $"../Idle"
-@onready var attack: AttackState = $"../Attack"
+@onready var attack: StateAttack = $"../Attack"
 
 
 func enter() -> void:
